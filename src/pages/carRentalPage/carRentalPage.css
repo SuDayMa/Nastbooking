@@ -1,0 +1,163 @@
+.carRentalPage {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .header {
+    background-color: #0071eb;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .headerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .headerTitle {
+    margin-top: 10px;
+    font-size: 1.8rem;
+  }
+  
+  .carRentalContainer {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carSearch {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .carSearchItem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .carSearchItem label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .carSearchItem input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .carSearchBtn {
+    background-color: #0071eb;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+  
+  .carResults {
+    margin-top: 20px;
+  }
+  
+  .carsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .carCard {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 250px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .carCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .carImage {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .carDetails h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .carDetails p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  
+  .rentNowBtn {
+    background-color: #0071eb;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* Tìm kiếm xe */
+.carSearch {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border: 2px solid #ff8c00; /* Viền màu cam */
+  margin-bottom: 30px;
+}
+
+.carSearchItem {
+  margin-bottom: 15px;
+}
+
+.carSearchItem label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.carSearchItem input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.carSearchItem input:focus {
+  border-color: #ff8c00; /* Màu viền khi input được focus */
+  outline: none;
+}
+
+.carSearchBtn {
+  background-color: #ff8c00;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  width: 10%;
+  margin-top: 10px;
+}
+
+.carSearchBtn:hover {
+  background-color: #e67e22;
+  transform: translateY(-2px);
+}

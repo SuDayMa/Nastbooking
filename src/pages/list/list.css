@@ -1,0 +1,125 @@
+/* Container cho danh sách */
+.listContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 0 15px;
+}
+
+/* Wrapper chứa tất cả các phần của trang danh sách */
+.listWrapper {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* Phần tìm kiếm */
+.listSearch {
+  flex: 1;
+  background-color: #bbcbdf;
+  padding: 20px;
+  border-radius: 12px;
+  position: sticky;
+  top: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  height: 750px;
+  transition: box-shadow 0.3s ease;
+}
+
+.listSearch:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Tiêu đề phần tìm kiếm */
+.lsTitle {
+  font-size: 24px;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+/* Mỗi mục tìm kiếm */
+.lsItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.lsItem > label {
+  font-size: 14px;
+  color: #555;
+  font-weight: 500;
+}
+
+/* Input và span trong mỗi mục tìm kiếm */
+.lsItem > input,
+.lsItem > span {
+  height: 40px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.lsItem > input:focus,
+.lsItem > span:hover {
+  border-color: #0071c2;
+}
+
+/* Thông tin tùy chọn trong phần tìm kiếm */
+.lsOptions {
+  padding: 15px 0;
+}
+
+.lsOptionItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 14px;
+}
+
+.lsOptionInput {
+  width: 80px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.lsOptionInput:focus {
+  border-color: #0071c2;
+}
+
+/* Nút tìm kiếm */
+.listSearch > button {
+  padding: 12px;
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.listSearch > button:hover {
+  background-color: #005fa3;
+}
+
+/* Phần kết quả tìm kiếm */
+.listResult {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

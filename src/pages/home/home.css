@@ -1,0 +1,36 @@
+/* Home Container */
+.homeContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px; /* Tăng khoảng cách giữa các phần tử */
+  padding: 0 20px; /* Thêm padding để nội dung không chạm vào cạnh */
+  box-sizing: border-box;
+}
+
+/* Home Title */
+.homeTitle {
+  width: 100%; /* Đảm bảo tiêu đề chiếm hết chiều rộng của container */
+  max-width: 1024px; /* Giới hạn chiều rộng tối đa */
+  font-size: 24px; /* Tăng cỡ chữ cho tiêu đề rõ ràng */
+  font-weight: bold; /* Đảm bảo tiêu đề nổi bật */
+  text-align: center; /* Căn giữa tiêu đề */
+  color: #333; /* Màu chữ tối cho sự dễ đọc */
+  line-height: 1.5; /* Cải thiện khoảng cách giữa các dòng */
+  margin-bottom: 20px; /* Thêm khoảng cách dưới tiêu đề */
+  letter-spacing: 1px; /* Tăng khoảng cách giữa các chữ cái cho sự tinh tế */
+  text-transform: uppercase; /* Tạo sự mạnh mẽ và hiện đại */
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .homeContainer {
+    gap: 20px; /* Giảm khoảng cách khi trên màn hình nhỏ */
+  }
+
+  .homeTitle {
+    font-size: 20px; /* Giảm cỡ chữ cho thiết bị di động */
+    max-width: 90%; /* Giảm chiều rộng tối đa để phù hợp với màn hình nhỏ */
+  }
+}

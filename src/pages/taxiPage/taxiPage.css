@@ -1,0 +1,358 @@
+/* taxiPage.css */
+
+.taxiPage {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('https://example.com/taxi-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.headerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headerList {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.headerListItem {
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.headerListItem.active,
+.headerListItem:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+}
+
+.headerListItem span {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.headerTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.taxiContainer {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.taxiResults h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.taxisList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.taxiCard {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.taxiCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.taxiImage {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.taxiDetails {
+    padding: 15px;
+    text-align: center;
+}
+
+.taxiDetails h3 {
+    font-size: 1.5rem;
+    color: #222;
+    margin: 10px 0;
+}
+
+.taxiDetails p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.taxiDetails strong {
+    color: #555;
+}
+
+.bookNowBtn {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.bookNowBtn:hover {
+    background-color: #ff4c4c;
+    transform: scale(1.05);
+}
+
+/* Image Slider Styles */
+.imageSlider {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.sliderContainer {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.sliderImage {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styles */
+.bookNowBtn {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.bookNowBtn:hover {
+    background-color: #ff4c4c;
+    transform: scale(1.05);
+}
+
+/* General Page Styles */
+.taxiPage {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('https://example.com/taxi-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.headerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headerList {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.headerListItem {
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.headerListItem.active,
+.headerListItem:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+}
+
+.headerListItem span {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.headerTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.taxiContainer {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.taxiResults h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.taxisList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.taxiCard {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.taxiCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.taxiImage {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.taxiDetails {
+    padding: 15px;
+    text-align: center;
+}
+
+.taxiDetails h3 {
+    font-size: 1.5rem;
+    color: #222;
+    margin: 10px 0;
+}
+
+.taxiDetails p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.taxiDetails strong {
+    color: #555;
+}
+
+.bookNowBtn {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.bookNowBtn:hover {
+    background-color: #ff4c4c;
+    transform: scale(1.05);
+}
+.headerListItem.whiteBackground {
+    background-color: rgba(224, 224, 224, 0.685); /* Transparent white */
+}
+/* Taxi Search Container */
+.taxiSearch {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  /* Individual Search Items (labels + input fields) */
+  .taxiSearchItem {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  /* Labels */
+  .taxiSearchItem label {
+    display: block;
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Input Fields */
+  .taxiSearchItem input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .taxiSearchItem input:focus {
+    border-color: #ff6b6b; /* Focus effect */
+  }
+  
+  /* Search Button */
+  .taxiSearchBtn {
+    background-color: #eeb64d;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .taxiSearchBtn:hover {
+    background-color: #f7c55a;
+    transform: scale(1.05);
+  }
+  

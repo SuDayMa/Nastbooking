@@ -1,0 +1,94 @@
+/* Featured Properties Container */
+.fp {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+/* Featured Property Item */
+.fpItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fpItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Styling */
+.fpImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.fpItem:hover .fpImg {
+  transform: scale(1.05);
+}
+
+/* Text Content */
+.fpName {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0071c2;
+  margin: 10px 0 5px 0;
+  text-align: center;
+}
+
+.fpCity {
+  font-size: 14px;
+  font-weight: 300;
+  color: #6c757d;
+  text-align: center;
+}
+
+.fpPrice {
+  font-size: 16px;
+  font-weight: 500;
+  color: #495057;
+  text-align: center;
+}
+
+/* Rating Section */
+.fpRating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.fpRating > button {
+  background-color: #003580;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.fpRating > button:hover {
+  background-color: #0056a3;
+  transform: scale(1.1);
+}
+
+.fpRating > span {
+  font-size: 14px;
+  color: #495057;
+  font-weight: 500;
+}
