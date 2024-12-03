@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Nastbooking/static/css/main.96c4a4ad.css",
-    "main.js": "/Nastbooking/static/js/main.a68e28a6.js",
+    "main.js": "/Nastbooking/static/js/main.6687d3aa.js",
     "index.html": "/Nastbooking/index.html",
     "main.96c4a4ad.css.map": "/Nastbooking/static/css/main.96c4a4ad.css.map",
-    "main.a68e28a6.js.map": "/Nastbooking/static/js/main.a68e28a6.js.map"
+    "main.6687d3aa.js.map": "/Nastbooking/static/js/main.6687d3aa.js.map"
   },
   "entrypoints": [
     "static/css/main.96c4a4ad.css",
-    "static/js/main.a68e28a6.js"
+    "static/js/main.6687d3aa.js"
   ]
 }
