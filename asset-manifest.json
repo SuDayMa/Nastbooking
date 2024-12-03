@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Nastbooking/static/css/main.96c4a4ad.css",
+    "main.js": "/Nastbooking/static/js/main.a8f5a0f1.js",
+    "index.html": "/Nastbooking/index.html",
+    "main.96c4a4ad.css.map": "/Nastbooking/static/css/main.96c4a4ad.css.map",
+    "main.a8f5a0f1.js.map": "/Nastbooking/static/js/main.a8f5a0f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96c4a4ad.css",
+    "static/js/main.a8f5a0f1.js"
+  ]
+}
