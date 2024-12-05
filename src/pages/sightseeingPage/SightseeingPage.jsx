@@ -63,7 +63,7 @@ const SightseeingPage = () => {
   const handleTaxiClick = () => {
     navigate("/taxi");
     setActivePage("taxi");
-    };
+  };
 
   return (
     <div className="sightseeingPage">
@@ -102,9 +102,9 @@ const SightseeingPage = () => {
               <span>Tham quan</span>
             </div>
             <div className="headerListItem" onClick={handleTaxiClick}>
-            <FontAwesomeIcon icon={faTaxi} />
-            <span>Taxi sân bay</span>
-          </div>
+              <FontAwesomeIcon icon={faTaxi} />
+              <span>Taxi sân bay</span>
+            </div>
           </div>
           <h1 className="headerTitle">Khám phá điểm đến tuyệt vời</h1>
         </div>

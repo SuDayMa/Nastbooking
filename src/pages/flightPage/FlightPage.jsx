@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./flightPage.css";
 import Navbar from "../../components/navbar/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBed, faPlane, faCar, faTaxi, faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons"; // Đảm bảo các icon được import đúng
+import { faBed, faPlane, faCar, faTaxi, faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 
 const FlightPage = () => {
@@ -32,17 +32,15 @@ const FlightPage = () => {
       image: "https://lh6.googleusercontent.com/qrJ-ad3RMhfIxwaid4-FjBOvIcdatXp1sul1CxW_TCPfCI9C1FOUu4OmQOkXVlOEjYW3qO2HOzplNpO2oguHm0YuzuVbn18A08TGwjMfEN0HJkhj7arILM10JDT_Qp83VvQhwtJO8HEAUPTwPb6Tcpo",
     },
   ]);
-  const [activePage, setActivePage] = useState("flights"); // State to track active page
-  const navigate = useNavigate(); // Điều hướng về trang chủ
+  const [activePage, setActivePage] = useState("flights");
+  const navigate = useNavigate();
 
-  // Function to handle navigation to the homepage
   const handleHomeClick = () => {
-    navigate("/"); // Chuyển về trang chủ
+    navigate("/");
   };
 
-  // Function for handling "Lưu trú" click to navigate to home
   const handleLuuTruClick = () => {
-    navigate("/"); // Chuyển về trang chủ
+    navigate("/");
   };
 
   const handleFlightClick = () => {
@@ -68,7 +66,6 @@ const FlightPage = () => {
     <div className="flightPage">
       <Navbar />
   
-      {/* Phần header điều hướng */}
       <div className="header">
         <div className="headerContainer">
           <div className="headerList">
@@ -92,11 +89,10 @@ const FlightPage = () => {
               <span>Tham quan</span>
             </div>
             <div className="headerListItem" onClick={handleTaxiClick}>
-            <FontAwesomeIcon icon={faTaxi} />
-            <span>Taxi sân bay</span>
+              <FontAwesomeIcon icon={faTaxi} />
+              <span>Taxi sân bay</span>
+            </div>
           </div>
-          </div>
-          {/* Thêm tiêu đề vào đây */}
           <h1 className="headerTitle">Tìm kiếm chuyến bay</h1>
         </div>
       </div>

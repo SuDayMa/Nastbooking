@@ -37,7 +37,7 @@ const CarRentalPage = () => {
     },
   ]);
 
-  const [activePage, setActivePage] = useState("carRental"); // State to track active page
+  const [activePage, setActivePage] = useState("carRental");
   const navigate = useNavigate();
 
   const handleHomeClick = () => {
@@ -74,7 +74,6 @@ const CarRentalPage = () => {
     <div className="carRentalPage">
       <Navbar />
 
-      {/* Header navigation */}
       <div className="header">
         <div className="headerContainer">
           <div className="headerList">
@@ -103,9 +102,9 @@ const CarRentalPage = () => {
               <span>Tham quan</span>
             </div>
             <div className="headerListItem" onClick={handleTaxiClick}>
-            <FontAwesomeIcon icon={faTaxi} />
-            <span>Taxi sân bay</span>
-          </div>
+              <FontAwesomeIcon icon={faTaxi} />
+              <span>Taxi sân bay</span>
+            </div>
           </div>
           <h1 className="headerTitle">Tìm xe phù hợp</h1>
         </div>
