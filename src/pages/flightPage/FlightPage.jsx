@@ -35,10 +35,6 @@ const FlightPage = () => {
   const [activePage, setActivePage] = useState("flights");
   const navigate = useNavigate();
 
-  const handleHomeClick = () => {
-    navigate("/");
-  };
-
   const handleLuuTruClick = () => {
     navigate("/");
   };
